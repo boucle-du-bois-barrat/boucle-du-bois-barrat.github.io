@@ -70,7 +70,8 @@ jobs:
           from datetime import datetime, timezone
 
           site_url = "https://matthieubellec29-source.github.io/course-bois-barrat/"
-          title = "Trail et marche de Montesquieu-Lauragais – 24 octobre 2026"
+          title = "Boucle du Bois Barrat 2027 – Trail et marche à Montesquieu-Lauragais"
+          event_name = "Trail et marche de Montesquieu-Lauragais – 24 octobre 2026"
           description = (
               "Participez au Trail et à la marche de Montesquieu-Lauragais le samedi "
               "24 octobre 2026 : un parcours nature de 12 km et 294 m de dénivelé positif "
@@ -103,7 +104,7 @@ jobs:
           event_data = {
               "@context": "https://schema.org",
               "@type": "SportsEvent",
-              "name": title,
+              "name": event_name,
               "description": description,
               "startDate": event_start,
               "eventStatus": "https://schema.org/EventScheduled",
