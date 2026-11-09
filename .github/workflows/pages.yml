@@ -30,7 +30,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          source_url="https://course-bois-barrat.matthieu-bellec29.chatgpt.site"
+          source_url="https://boucle-du-bois-barrat.github.io/"
           mkdir -p _site/assets
 
           curl --fail --location --retry 3 "$source_url/" --output _site/index.html
