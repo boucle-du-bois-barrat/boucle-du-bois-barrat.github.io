@@ -30,7 +30,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          source_url="https://boucle-du-bois-barrat.github.io/"
+          source_url="https://course-bois-barrat.matthieu-bellec29.chatgpt.site"
           mkdir -p _site/assets
 
           curl --fail --location --retry 3 "$source_url/" --output _site/index.html
@@ -69,7 +69,7 @@ jobs:
           import re
           from datetime import datetime, timezone
 
-          site_url = "https://matthieubellec29-source.github.io/course-bois-barrat/"
+          site_url = "https://boucle-du-bois-barrat.github.io/"
           title = "Boucle du Bois Barrat 2027 – Trail et marche à Montesquieu-Lauragais"
           event_name = "Trail et marche de Montesquieu-Lauragais – 24 octobre 2026"
           description = (
